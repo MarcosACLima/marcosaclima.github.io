@@ -1,19 +1,83 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
     <title>Site</title>
 </head>
+
 <body>
-    <h1 style="text-align: center;">Bem-vindo(a) a minha página!</h1>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark bg-primary">
+            <a class="navbar-brand" href="#">Menu</a>
+            <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
+                data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownId">
+                            <a class="dropdown-item" href="#">Action 1</a>
+                            <a class="dropdown-item" href="#">Action 2</a>
+                        </div>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="text" placeholder="Digite aqui">
+                    <button class="btn btn-success my-2 my-sm-0" type="submit">Pesquisar</button>
+                </form>
+            </div>
+        </nav>
+    </header>
 
-    <p style="text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque volutpat arcu semper augue placerat, vel eleifend nibh vehicula. Nam eu arcu vitae diam elementum sagittis vel vitae augue. Ut sodales cursus urna et pretium. Ut diam nisl, imperdiet in varius ac, tristique nec ex. Aliquam erat volutpat. Fusce vel accumsan turpis. Fusce porttitor quam vitae dignissim maximus. In ac ullamcorper lacus, sed ullamcorper justo. Duis in orci nec augue efficitur dictum. Curabitur posuere dui non hendrerit accumsan. Etiam aliquam nunc at volutpat placerat. Nunc pretium, massa vitae porta sagittis, odio purus dapibus purus, ut eleifend augue erat a ex. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec consectetur vulputate posuere. Nunc pellentesque ac justo sit amet convallis.</p>
+    
+    <section>
+        <div class="container">
+            <h1 class="text-center">Bem-vindo(a) a minha página!</h1>
+        
+            <p class="lead text-justify">&emsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque volutpat arcu
+                semper augue placerat, vel eleifend nibh vehicula. Nam eu arcu vitae diam elementum sagittis vel vitae augue. Ut
+                sodales cursus urna et pretium. Ut diam nisl, imperdiet in varius ac, tristique nec ex. Aliquam erat volutpat.
+                Fusce vel accumsan turpis. Fusce porttitor quam vitae dignissim maximus. In ac ullamcorper lacus, sed
+                ullamcorper justo. Duis in orci nec augue efficitur dictum. Curabitur posuere dui non hendrerit accumsan. Etiam
+                aliquam nunc at volutpat placerat. Nunc pretium, massa vitae porta sagittis, odio purus dapibus purus, ut
+                eleifend augue erat a ex. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
+                Curae; Donec consectetur vulputate posuere. Nunc pellentesque ac justo sit amet convallis.</p>
+        
+                <center>
+                    <img src="img/pinguim-4672.jpg" height="250px">
+                </center>
 
-    <center>
-        <img src="img/pinguim-4672.jpg" height="250px">
-    </center>
-   alterei aqui
+                <p class="lead text-justify">&emsp;Cras faucibus, leo non accumsan ultrices, nulla ligula laoreet ligula, tempor euismod tellus purus ut tortor. Phasellus a lobortis sem. In malesuada ut magna id varius. Etiam commodo tortor sed nibh luctus, in ornare sapien sollicitudin. Vivamus commodo dolor vel malesuada euismod. Sed orci nisl, cursus a turpis id, pretium placerat lorem. Curabitur tristique, orci sed condimentum rutrum, urna lectus tempus nibh, vitae fringilla eros sapien vel tortor. Pellentesque bibendum, neque ut laoreet tristique, orci magna aliquet massa, ut tincidunt odio mi id turpis.</p>
+        </div>
+        </section>
 
+        <footer class="bg-primary">
+            <div class="container text-center text-light">
+                Copyright 2020
+            </div>
+        </footer>
+
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+            crossorigin="anonymous"></script>
 </body>
+
 </html>
